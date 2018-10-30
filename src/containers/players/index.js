@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import App from '../../components/app'
+import Players from '../../components/players'
 import { getPlayers } from '../../actions/players'
 
 const mapStateToProps = (state) => {
@@ -18,4 +18,4 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App)
+)(Players)

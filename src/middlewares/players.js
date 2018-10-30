@@ -22,7 +22,7 @@ export const getPlayers = (action, next) => {
        {
            firstName: 'Jesse',
            lastName: 'Ellis Lingland',
-           photo: 'jesse-ellis-lingard.jpg',
+           photo: 'jesse-ellis-lingard.png',
            club: 'Manchester United',
            role: 'Center Back',
            status: true,
@@ -31,7 +31,7 @@ export const getPlayers = (action, next) => {
        {
             firstName: 'Robert',
             lastName: 'Wilson',
-            photo: 'robert-wilson.jpg',
+            photo: 'robert-wilson.png',
             club: 'Manchester United',
             role: 'Forward',
             status: true,
@@ -40,11 +40,38 @@ export const getPlayers = (action, next) => {
         {
             firstName: 'John',
             lastName: 'Page',
-            photo: 'john-page.jpg',
+            photo: 'john-page.png',
             club: 'Borussia',
             role: 'Goalkeeper',
             status: true,
             interest: true
-        }
+        },
+        {
+            firstName: 'Jesse',
+            lastName: 'Ellis Lingland',
+            photo: 'jesse-ellis-lingard.png',
+            club: 'Manchester United',
+            role: 'Center Back',
+            status: true,
+            interest: true
+        },
+        {
+             firstName: 'Robert',
+             lastName: 'Wilson',
+             photo: 'robert-wilson.png',
+             club: 'Manchester United',
+             role: 'Forward',
+             status: true,
+             interest: true
+         },
+         {
+             firstName: 'John',
+             lastName: 'Page',
+             photo: 'john-page.png',
+             club: 'Borussia',
+             role: 'Goalkeeper',
+             status: true,
+             interest: true
+         }
    ]))
 }

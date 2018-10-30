@@ -1,4 +1,11 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@import "~semantic-ui-css/semantic.css";
 
-@import "../../components/app/css/styles.scss";
+@import "./_colors.scss";
+@import "./libs/_slick.scss";
+@import "./libs/_bootstrap.scss";
+@import "./_common.scss";
+
+@import "../../components/app/css/_styles.scss";
+@import "../../components/players/css/_styles.scss";
