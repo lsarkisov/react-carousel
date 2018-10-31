@@ -1,25 +1,25 @@
 import {
-    ON_PLAYERS_FETCHING,
-} from '../const/players'
-import { getPlayers } from './players'
+  ON_PLAYERS_FETCHING,
+} from '../const/players';
+import {getPlayers} from './players';
 
 const before = (action, next) => {
-    switch (action.type) {
+  switch (action.type) {
     case ON_PLAYERS_FETCHING:
-        getPlayers(action, next)
-        break
+      getPlayers(action, next);
+      break;
     default:
-        return {}
-    }
-  };
+      return {};
+  }
+};
 
-const after = () => {};
+const after = () => { };
 
-const eventsMiddlewares = ({ getState }) => next => (action) => {
-    before(action, next)
-    after(getState)
-    return next(action)
+const eventsMiddlewares = ({getState}) => (next) => (action) => {
+  before(action, next);
+  after(getState);
+  return next(action);
 };
 
 
-export default eventsMiddlewares
+export default eventsMiddlewares;
